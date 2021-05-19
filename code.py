@@ -25,3 +25,8 @@ import pickle
 from keras import backend as K
 import gc
 import datetime
+
+from tweepy import Stream
+from tweepy import OAuthHandler
+from tweepy.streaming import StreamListener
+import json
